@@ -1,5 +1,5 @@
 import sys  # It helps to manipulate different parts of the python run time environment
-from src.logger import logging
+from src.logger import logging  #after creation
 def error_message_detail(error,error_detail:sys):
     _,_,exc_tb=error_detail.exc_info()  #excecution info
     file_name=exc_tb.tb_frame.f_code.co_filename
