@@ -51,7 +51,7 @@ Trained models include:
 - XGBRegressor
 - CatBoosting Regressor 
 - AdaBoost Regressor
-
+We got the best model with r2 score of 0.99.
 Fine-tuning of models was performed using Grid Search CV.
 
 ## Deployment
